@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import fire from "../config/fire-config";
+
 const CreatePost = () => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
@@ -71,6 +73,26 @@ const CreatePost = () => {
       <button type="submit" onClick={() => postDetails()}>
         Save
       </button>
+      <div>
+        <Link href="getdata/">
+          <a
+            style={{
+              display: "block",
+              width: "115px",
+              height: "50px",
+              background: "#4E9CAF",
+              padding: "10px",
+              textAlign: "center",
+              borderRadius: "5px",
+              color: "white",
+              fontWeight: "bold",
+              lineHeight: "25px",
+            }}
+          >
+            data
+          </a>
+        </Link>
+      </div>
     </div>
   );
 };
