@@ -54,7 +54,7 @@ const data = () => {
           //       <p>{item.title}</p>
           //     </div>
           //   </div>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem", marginTop: "19px" }} key={item.id}>
             <Card.Img variant="top" src={item.pic} />
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
@@ -67,6 +67,7 @@ const data = () => {
       <Link href="/">
         <a
           style={{
+            marginTop: "17px",
             display: "block",
             width: "115px",
             height: "50px",
