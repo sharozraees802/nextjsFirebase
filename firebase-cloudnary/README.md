@@ -31,3 +31,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 email:livanifyp802@gmail.com
 Password:\$Livanifyp123456789
+https://www.freecodecamp.org/news/the-firestore-tutorial-for-2020-learn-by-example/
