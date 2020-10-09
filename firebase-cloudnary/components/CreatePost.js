@@ -22,10 +22,16 @@ const CreatePost = () => {
   }, [url]);
   const postDetails = () => {
     // console.log(title, body, image);
+    //console.log(image);
     const data = new FormData();
     data.append("file", image);
     data.append("upload_preset", "livani");
     data.append("cloud_name", "livanifyp");
+    // data.append("file", image);
+    // data.append("upload_preset", "Ecommerce");
+    // data.append("cloud_name", "du0gkw6ns");
+    // https://api.cloudinary.com/v1_1/du0gkw6ns/image/upload
+    //https://api.cloudinary.com/v1_1/livanifyp/image/upload
     fetch("https://api.cloudinary.com/v1_1/livanifyp/image/upload", {
       method: "post",
       body: data,
