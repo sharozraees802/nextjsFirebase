@@ -40,6 +40,16 @@ const data = () => {
       />
     );
   }
+  const datadel = (id) => {
+    console.log(id);
+    fire
+      .firestore()
+      .collection("datapic")
+      .doc(id)
+      .delete()
+      .then((r) => console.log("success delete", r))
+      .catch((err) => console.log(err));
+  };
   return (
     <>
       <h2>Card</h2>
@@ -56,6 +66,26 @@ const data = () => {
           //   </div>
           <Card style={{ width: "18rem", marginTop: "19px" }} key={item.id}>
             <Card.Img variant="top" src={item.pic} />
+            <button onClick={() => datadel(item.id)}>delete</button>
+            <Link href="/editdata">
+              <a
+                style={{
+                  marginTop: "17px",
+                  display: "block",
+                  width: "115px",
+                  height: "50px",
+                  background: "#4E9CAF",
+                  padding: "10px",
+                  textAlign: "center",
+                  borderRadius: "5px",
+                  color: "white",
+                  fontWeight: "bold",
+                  lineHeight: "25px",
+                }}
+              >
+                Edit
+              </a>
+            </Link>
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.body}</Card.Text>
