@@ -67,7 +67,7 @@ const data = () => {
           <Card style={{ width: "18rem", marginTop: "19px" }} key={item.id}>
             <Card.Img variant="top" src={item.pic} />
             <button onClick={() => datadel(item.id)}>delete</button>
-            <Link href="/editdata">
+            <Link href={`/editdata/${item.id}`}>
               <a
                 style={{
                   marginTop: "17px",
@@ -86,6 +86,25 @@ const data = () => {
                 Edit
               </a>
             </Link>
+            <Link href="/">
+              <a
+                style={{
+                  marginTop: "17px",
+                  display: "block",
+                  width: "115px",
+                  height: "50px",
+                  background: "#4E9CAF",
+                  padding: "10px",
+                  textAlign: "center",
+                  borderRadius: "5px",
+                  color: "white",
+                  fontWeight: "bold",
+                  lineHeight: "25px",
+                }}
+              >
+                form
+              </a>
+            </Link>
             <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.body}</Card.Text>
@@ -94,7 +113,7 @@ const data = () => {
         );
       })}
 
-      <Link href="/">
+      {/* <Link href="/">
         <a
           style={{
             marginTop: "17px",
@@ -112,7 +131,7 @@ const data = () => {
         >
           form
         </a>
-      </Link>
+      </Link> */}
     </>
   );
 };
