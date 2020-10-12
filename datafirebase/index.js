@@ -14,13 +14,13 @@ const data = require("./Products");
 for (let i = 0; i < data.length; i++) {
   const element = data[i];
   //console.log(element);
-  //console.log(i);
-  firebase
-    .firestore()
-    .collection("products")
-    .add({
-      element,
-    })
-    .then(() => console.log("data send", i))
-    .catch((err) => console.log("error", err));
+  console.log(i);
+  // firebase
+  //   .firestore()
+  //   .collection("products")
+  //   .add({
+  //     element,
+  //   })
+  //   .then(() => console.log("data send", i))
+  //   .catch((err) => console.log("error", err));
 }

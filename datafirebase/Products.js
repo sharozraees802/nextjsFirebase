@@ -203,9 +203,9 @@ const data = [
     discountOff: 0,
     id: "ip4v3oU4B0kNkadpoKw7",
     imageHoverUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/img-hover7-1588705407247.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602511783/img-hover7-1588705407247_xjytho.jpg",
     imageUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/img7-1588705402171.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602511784/img7-1588705402171_koadzg.jpg",
     newPrice: 250,
     newProduct: false,
     offer: true,
@@ -221,9 +221,9 @@ const data = [
     discountOff: 0,
     id: "msBbGUW3ngGgK36LO8V4",
     imageHoverUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/img-hover6-1588705244164.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602511864/img-hover6-1588705244164_ort5cb.jpg",
     imageUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/img6-1588705236520.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602511864/img6-1588705236520_sjynw1.jpg",
     newPrice: 200,
     newProduct: false,
     offer: true,
@@ -239,9 +239,9 @@ const data = [
     discountOff: 0,
     id: "sVYa7ukhehhatWuUeHlC",
     imageHoverUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/img-hover3-1588705031467.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602511978/img-hover3-1588705031467_lmfqcd.jpg",
     imageUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/img3-1588705025358.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602511978/img3-1588705025358_v4xxok.jpg",
     newPrice: 200,
     newProduct: false,
     offer: true,
@@ -257,9 +257,9 @@ const data = [
     discountOff: 0,
     id: "z3aN9RdjTQq1CX2epgpx",
     imageHoverUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/img-hover10-1588705843382.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512429/img-hover10-1588705843382_idr8uv.jpg",
     imageUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/img10-1588705828089.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512428/img10-1588705828089_vcqs4m.jpghttps://demaxin.s3.ap-south-1.amazonaws.com/img10-1588705828089.jpg",
     newPrice: 200,
     newProduct: false,
     offer: false,
@@ -275,9 +275,9 @@ const data = [
     discountOff: 0,
     id: "IWXJ94Pf7PYNfZPLjBVI",
     imageHoverUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-2-1589216093113.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512663/cd19-2-1589216087881_suxhni.jpg",
     imageUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-2-1589216087881.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512663/cd19-2-1589216093113_xonx4b.jpg",
     newPrice: 20,
     newProduct: false,
     offer: true,
@@ -293,8 +293,9 @@ const data = [
     discountOff: 0,
     id: "UrbIhOj8PeNJDScvussb",
     imageHoverUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-1-1589215961316.jpg",
-    imageUrl: "https://demaxin.s3.amazonaws.com/cd19-1-1589215924614.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512747/cd19-1-1589215961316_vbwyhj.jpg",
+    imageUrl:
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512747/cd19-1-1589215924614_chjtt1.jpg",
     newPrice: 18,
     newProduct: true,
     offer: true,
@@ -310,9 +311,9 @@ const data = [
     discountOff: 20,
     id: "ZwD17rghwHtTz5H1ABdG",
     imageHoverUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-3-1589216157268.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512814/cd19-3-1589216157268_cn0re3.jpg",
     imageUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-3-1589216152026.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512814/cd19-3-1589216152026_f5swv3.jpg",
     newPrice: 25,
     newProduct: false,
     offer: false,
@@ -328,9 +329,9 @@ const data = [
     discountOff: 0,
     id: "b02Vwq152vZqWYtUY7nU",
     imageHoverUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-4-1589216252432.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512893/cd19-4-1589216248208_dsfkd9.jpg",
     imageUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-4-1589216248208.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512893/cd19-4-1589216252432_a4tr8m.jpg",
     newPrice: 30,
     newProduct: false,
     offer: false,
@@ -346,9 +347,9 @@ const data = [
     discountOff: 0,
     id: "bhgvxC7OJC1ZeYnhjKRS",
     imageHoverUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-5-1589216324757.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512978/cd19-5-1589216332060_nhtvic.jpg",
     imageUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-5-1589216332060.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602512978/cd19-5-1589216324757_upbwwy.jpg",
     newPrice: 32,
     newProduct: false,
     offer: false,
@@ -364,9 +365,9 @@ const data = [
     discountOff: 0,
     id: "wviQsVaMI9WFX3JXvjfT",
     imageHoverUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-6-1589216386588.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602513064/cd19-6-1589216382981_nintol.jpg",
     imageUrl:
-      "https://demaxin.s3.ap-south-1.amazonaws.com/cd19-6-1589216382981.jpg",
+      "https://res.cloudinary.com/livanifyp/image/upload/v1602513064/cd19-6-1589216386588_lc4duq.jpg",
     newPrice: 32,
     newProduct: false,
     offer: false,
