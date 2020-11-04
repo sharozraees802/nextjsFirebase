@@ -3,7 +3,6 @@ const data = [
     description: "Long Sleeve Leopard T-Shirt",
     discount: false,
     discountOff: 10,
-    id: "5DAcUDDd4t8xWgl9kvXl",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602504221/img-hover1-1588704436043_vcpzf0.jpg",
     imageUrl:
@@ -21,7 +20,6 @@ const data = [
     description: "Sunnyme Women's Ponchos",
     discount: false,
     discountOff: 0,
-    id: "81tgigL0U2zUHoTj85Ht",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602504347/img-hover8-1588705468374_djoxuj.jpg",
     imageUrl:
@@ -39,7 +37,6 @@ const data = [
     description: "Women's Modern-Skinny",
     discount: true,
     discountOff: 20,
-    id: "9Gkmfo4HjW4tKvMYlpX9",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602504484/img-hover12-1588705972392_lhaihp.jpg",
     imageUrl:
@@ -57,7 +54,6 @@ const data = [
     description: "Block Striped Draped",
     discount: false,
     discountOff: 0,
-    id: "D9wwa2ZDu281HV5s95b9",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602505116/img-hover11-1588705905171_o3jttl.jpg",
     imageUrl:
@@ -75,7 +71,6 @@ const data = [
     description: "Gildan Men's Crew T-Shirt",
     discount: false,
     discountOff: 0,
-    id: "EzJtxvc9Zr7iG8k7eIlB",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602505206/img-hover4-1588705109913_mrydnh.jpg",
     imageUrl:
@@ -93,7 +88,6 @@ const data = [
     description: "Yidarton Women's Comfy",
     discount: false,
     discountOff: 0,
-    id: "Hddr7Vh0vM0i5D0JIh7o",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602505317/img-hover5-1588705177941_hybhie.jpg",
     imageUrl:
@@ -111,7 +105,6 @@ const data = [
     description: "Chest Cutout Tunics Long",
     discount: true,
     discountOff: 20,
-    id: "N14nGR4yn5g526TdTJNU",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602505403/img-hover15-1588706198456_idbkle.jpg",
     imageUrl:
@@ -129,7 +122,6 @@ const data = [
     description: "T-Shirt Casual Stripe Tunic",
     discount: true,
     discountOff: 20,
-    id: "S4xjmGV8IiWH9Vb9JnWq",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602505487/img-hover14-1588706135870_s4abrs.jpg",
     imageUrl:
@@ -147,7 +139,6 @@ const data = [
     description: "Causal V-Neck Soft Raglan",
     discount: false,
     discountOff: 0,
-    id: "VTcZrUJDHqq8ftDYFbV8",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602505566/img-hover2-1588704656583_ayupld.jpg",
     imageUrl:
@@ -165,7 +156,6 @@ const data = [
     description: "Sleeve Faux Suede Loose",
     discount: true,
     discountOff: 20,
-    id: "YmN6cjNxsuqjkkp544TI",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602505648/img-hover13-1588706058885_kw2sfd.jpg",
     imageUrl:
@@ -183,7 +173,6 @@ const data = [
     description: "Open Front Knit Sweaters",
     discount: false,
     discountOff: 0,
-    id: "cn9vWWcTfc1BGtslq6rd",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602505928/img-hover9-1588705771122_tqpa1d.jpg",
     imageUrl:
@@ -201,7 +190,6 @@ const data = [
     description: "Tbmpoy Men's Tapered",
     discount: false,
     discountOff: 0,
-    id: "ip4v3oU4B0kNkadpoKw7",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602511783/img-hover7-1588705407247_xjytho.jpg",
     imageUrl:
@@ -219,7 +207,6 @@ const data = [
     description: "Womens Tops Color",
     discount: true,
     discountOff: 0,
-    id: "msBbGUW3ngGgK36LO8V4",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602511864/img-hover6-1588705244164_ort5cb.jpg",
     imageUrl:
@@ -237,7 +224,6 @@ const data = [
     description: "Hanes Men's Pullover",
     discount: false,
     discountOff: 0,
-    id: "sVYa7ukhehhatWuUeHlC",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602511978/img-hover3-1588705031467_lmfqcd.jpg",
     imageUrl:
@@ -255,7 +241,6 @@ const data = [
     description: "Block Striped Draped",
     discount: false,
     discountOff: 0,
-    id: "z3aN9RdjTQq1CX2epgpx",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602512429/img-hover10-1588705843382_idr8uv.jpg",
     imageUrl:
@@ -273,7 +258,6 @@ const data = [
     description: "Hand Sanitizer",
     discount: false,
     discountOff: 0,
-    id: "IWXJ94Pf7PYNfZPLjBVI",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602512663/cd19-2-1589216087881_suxhni.jpg",
     imageUrl:
@@ -291,7 +275,6 @@ const data = [
     description: "Medical Mask",
     discount: false,
     discountOff: 0,
-    id: "UrbIhOj8PeNJDScvussb",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602512747/cd19-1-1589215961316_vbwyhj.jpg",
     imageUrl:
@@ -309,7 +292,6 @@ const data = [
     description: "Medical Gloves",
     discount: true,
     discountOff: 20,
-    id: "ZwD17rghwHtTz5H1ABdG",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602512814/cd19-3-1589216157268_cn0re3.jpg",
     imageUrl:
@@ -327,7 +309,6 @@ const data = [
     description: "Safety Goggles",
     discount: false,
     discountOff: 0,
-    id: "b02Vwq152vZqWYtUY7nU",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602512893/cd19-4-1589216248208_dsfkd9.jpg",
     imageUrl:
@@ -345,7 +326,6 @@ const data = [
     description: "Drugs",
     discount: false,
     discountOff: 0,
-    id: "bhgvxC7OJC1ZeYnhjKRS",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602512978/cd19-5-1589216332060_nhtvic.jpg",
     imageUrl:
@@ -363,7 +343,6 @@ const data = [
     description: "Vaccine",
     discount: false,
     discountOff: 0,
-    id: "wviQsVaMI9WFX3JXvjfT",
     imageHoverUrl:
       "https://res.cloudinary.com/livanifyp/image/upload/v1602513064/cd19-6-1589216382981_nintol.jpg",
     imageUrl:
