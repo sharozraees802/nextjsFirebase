@@ -3,8 +3,8 @@ const nodemailer = require("nodemailer");
 
 const router = express.Router();
 
-const user = "instaminiheroku@gmail.com";
-const pass = "instaminiheroku007";
+const user = "";
+const pass = "";
 
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
@@ -22,10 +22,10 @@ router.post("/api/mail", (req, res) => {
       to: req.body.email,
       subject: req.body.subject,
       text: req.body.messege,
-      html: "<h1>welcome To NodeMailer Check</h1>",
+      html: `<p>${req.body.messege}</p>`,
     })
-    .then((res) => console.log(res))
-    .catch((err) => console.log(err));
+    .then((res) => console.log("success", res))
+    .catch((err) => console.log("error", err));
 });
 
 module.exports = router;

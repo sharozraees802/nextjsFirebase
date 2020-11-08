@@ -7,28 +7,32 @@ const MailPost = () => {
   const [email, setEmail] = useState("");
 
   const SendMail = () => {
-    console.log(email, subject, messege);
-    Axios.post("/api/mail", {
-      to: email,
-      subject: subject,
-      text: messege,
-    })
-      .then((res) => {
-        console.log("send success", res);
-        console.log(email, subject, messege);
-      })
-      .catch((err) => console.log(err));
+    //console.log(email, subject, messege);
 
-    //   fetch("https://api.cloudinary.com/v1_1/livanifyp/image/upload", {
-    //     method: "post",
-    //     body: data,
-    //   })
-    //     .then((res) => res.json())
-    //     .then((data) => {
-    //       setUrl(data.url);
-    //       console.log(data);
-    //     })
-    //     .catch((err) => console.log(err));
+    Axios.post(
+      "/api/mail",
+      {
+        email,
+        subject,
+        messege,
+      },
+      {
+        headers: { "Content-type": "application/json" },
+      }
+    )
+      .then((res) => console.log("send success", res))
+      .catch((err) => console.log("error:", err));
+
+    // fetch("/api/mail", {
+    //   method: "post",
+    //   headers: {
+    //     "Content-type": "application/json",
+    //   },
+    //   body: JSON.stringify({ email, subject, messege }),
+    // })
+    //   .then((res) => console.log("success", res))
+    //   .catch((err) => console.log("error", error));
+
     document.getElementById("email").value = "";
     document.getElementById("subject").value = "";
     document.getElementById("messege").value = "";
