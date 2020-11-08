@@ -1,12 +1,23 @@
+import Axios from "axios";
 import React, { useState } from "react";
 
 const MailPost = () => {
   const [subject, setSubject] = useState("");
-  const [body, setBody] = useState("");
+  const [messege, setMessege] = useState("");
   const [email, setEmail] = useState("");
 
   const SendMail = () => {
-    console.log(email, subject, body);
+    console.log(email, subject, messege);
+    Axios.post("/api/mail", {
+      to: email,
+      subject: subject,
+      text: messege,
+    })
+      .then((res) => {
+        console.log("send success", res);
+        console.log(email, subject, messege);
+      })
+      .catch((err) => console.log(err));
 
     //   fetch("https://api.cloudinary.com/v1_1/livanifyp/image/upload", {
     //     method: "post",
@@ -20,7 +31,7 @@ const MailPost = () => {
     //     .catch((err) => console.log(err));
     document.getElementById("email").value = "";
     document.getElementById("subject").value = "";
-    document.getElementById("body").value = "";
+    document.getElementById("messege").value = "";
   };
   return (
     <div
@@ -84,10 +95,10 @@ const MailPost = () => {
           placeholder="Messege....!"
           cols="30"
           rows="15"
-          value={body}
+          value={messege}
           required
-          id="body"
-          onChange={(e) => setBody(e.target.value)}
+          id="messege"
+          onChange={(e) => setMessege(e.target.value)}
         />
       </div>
 
