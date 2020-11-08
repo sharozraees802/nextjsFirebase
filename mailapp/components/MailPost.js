@@ -18,6 +18,9 @@ const MailPost = () => {
     //       console.log(data);
     //     })
     //     .catch((err) => console.log(err));
+    document.getElementById("email").value = "";
+    document.getElementById("subject").value = "";
+    document.getElementById("body").value = "";
   };
   return (
     <div
@@ -40,8 +43,10 @@ const MailPost = () => {
             boxSizing: "border-box",
           }}
           type="email"
-          required="required"
+          // required="required"
+          required
           placeholder="Email...!"
+          id="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -58,8 +63,9 @@ const MailPost = () => {
             boxSizing: "border-box",
           }}
           type="text"
-          required="required"
+          required
           placeholder="Subject.....!"
+          id="subject"
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
         />
@@ -79,7 +85,8 @@ const MailPost = () => {
           cols="30"
           rows="15"
           value={body}
-          required="required"
+          required
+          id="body"
           onChange={(e) => setBody(e.target.value)}
         />
       </div>

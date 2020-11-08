@@ -23,6 +23,7 @@
 
 const express = require("express");
 const next = require("next");
+const mail = require("./server/routes/mail.routes");
 
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dir: ".", dev });
@@ -34,6 +35,8 @@ app.prepare().then(() => {
   const server = express();
 
   server.use(express.json());
+
+  server.use(mail);
 
   server.get("*", (req, res) => {
     return handle(req, res);

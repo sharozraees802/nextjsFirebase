@@ -7,7 +7,7 @@ const hey = () => {
     <>
       <div>
         <Head>
-          <title>cloudnary firebase</title>
+          <title>Email Server</title>
         </Head>
         <MailPost />
       </div>
