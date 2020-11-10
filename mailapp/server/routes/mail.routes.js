@@ -3,8 +3,8 @@ const nodemailer = require("nodemailer");
 
 const router = express.Router();
 
-const user = "";
-const pass = "";
+const user = "instaminiheroku@gmail.com";
+const pass = "instaminiheroku007";
 
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
