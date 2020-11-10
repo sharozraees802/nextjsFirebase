@@ -20,8 +20,8 @@ const MailPost = () => {
         headers: { "Content-type": "application/json" },
       }
     )
-      .then((res) => console.log("send success", res))
-      .catch((err) => console.log("error:", err));
+      .then((res) => console.log(res))
+      .catch((err) => console.log(err));
 
     // fetch("/api/mail", {
     //   method: "post",
