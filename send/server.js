@@ -2,7 +2,7 @@
 
 // const sgMail = require("@sendgrid/mail");
 // sgMail.setApiKey(
-//   "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"
+//   "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"
 // );
 
 // const msg = {
@@ -27,7 +27,7 @@ const transporter = nodemailer.createTransport(
   sendgridTransport({
     auth: {
       api_key:
-        "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",
+        "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",
     },
   })
 );
