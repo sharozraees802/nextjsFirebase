@@ -72,3 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Emulator command:emulator -avd Pixel_3_xl
 
 Portset local network use a mobile emulator push notification : chrome://inspect/#devices
+
+key find: https://notificationapp-54b09.web.app/
+
+Vapid key gennerator: https://tools.reactpwa.com/vapid
