@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Nav, Navbar, Form, FormControl, Button } from "react-bootstrap";
 import { Link, Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import Home from "../Screens/Home/home";
 import User from "../Screens/User/user";
 import About from "../Screens/About/about";
+import firebase from "../../firebase";
 import "../../App.css";
-const navbar = () => {
+const Header = () => {
+  useEffect(() => {
+    const msg = firebase.messaging();
+    msg
+      .requestPermission()
+      .then(() => {
+        return msg.getToken();
+      })
+      .then((token) => {
+        console.log("Token: ", token);
+      });
+  });
+
   return (
     <div>
       <Router>
@@ -39,4 +52,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Header;

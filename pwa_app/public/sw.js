@@ -5,6 +5,8 @@ var files = [
   "/static/js/bundle.js",
   "/static/js/main.chunk.js",
   "/static/js/0.chunk.js",
+  "/static/css/main.chunk.css",
+  "/bootstrap.min.css",
   "/manifest.json",
   "/index.html",
   "/",
