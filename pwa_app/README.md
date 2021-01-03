@@ -76,3 +76,7 @@ Portset local network use a mobile emulator push notification : chrome://inspect
 key find: https://notificationapp-54b09.web.app/
 
 Vapid key gennerator: https://tools.reactpwa.com/vapid
+
+hard refersh page : Ctrl + Shift + R
+
+Notification :https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification
