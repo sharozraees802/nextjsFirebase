@@ -1,0 +1,13 @@
+http://localhost:3000/_next/static/chunks/webpack.js?ts=1610122363472
+
+http://localhost:3000/_next/static/chunks/pages/_app.js?ts=1610122363472
+
+http://localhost:3000/_next/static/chunks/react-refresh.js?ts=1610122363472
+
+http://localhost:3000/_next/static/development/_buildManifest.js?ts=1610122363472
+
+http://localhost:3000/_next/static/development/_ssgManifest.js?ts=1610122363472
+
+http://localhost:3000/_next/static/chunks/0.js
+
+http://localhost:3000/_next/webpack-hmr?page=/
