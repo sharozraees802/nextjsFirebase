@@ -67,10 +67,11 @@ today = `months:${months[mm]}-date:${dd}-day:${days[d]}-year:${yyyy}`;
 
 //console.log(t.getDay());
 
-var t = new Date(2021, 0, 30);
-console.log(days[t.getDay()]);
+// var t = new Date(2021, 0, 30);
+// console.log(days[t.getDay()]);
 
-// var date = new Date();
+var date = new Date();
+console.log("2", date);
 
-// String(date.setDate(date.getDate() + 7));
-// console.log(date.toDateString());
+date.setDate(date.getDate() + 7);
+console.log("1", date);
