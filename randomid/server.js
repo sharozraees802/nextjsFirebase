@@ -76,18 +76,19 @@ today = `months:${months[mm]}-date:${dd}-day:${days[d]}-year:${yyyy}`;
 // date.setDate(date.getDate() + 7);
 // console.log("1", date);
 
-t = { seconds: 1612120897, nanoseconds: 816000000 };
+//t = { seconds: 1612120897, nanoseconds: 816000000 };
+t = { seconds: 1614229200, nanoseconds: 816000000 };
 
-const convertDateTime = (d) => {
-  let t = new Date(1970, 0, 1);
-  let time = t.setSeconds(d.seconds);
-  const ye = new Intl.DateTimeFormat("en", { year: "numeric" }).format(time);
-  const mo = new Intl.DateTimeFormat("en", { month: "short" }).format(time);
-  const da = new Intl.DateTimeFormat("en", { day: "2-digit" }).format(time);
-  const ti = new Intl.DateTimeFormat("en", { timeStyle: "short" }).format(time);
-  return `${da}/${mo}/${ye}  time: ${ti}`;
-};
-console.log(convertDateTime(t));
+// const convertDateTime = (d) => {
+//   let t = new Date(1970, 0, 1);
+//   let time = t.setSeconds(d.seconds);
+//   const ye = new Intl.DateTimeFormat("en", { year: "numeric" }).format(time);
+//   const mo = new Intl.DateTimeFormat("en", { month: "short" }).format(time);
+//   const da = new Intl.DateTimeFormat("en", { day: "2-digit" }).format(time);
+//   const ti = new Intl.DateTimeFormat("en", { timeStyle: "short" }).format(time);
+//   return `${da}/${mo}/${ye}  time: ${ti}`;
+// };
+// console.log(convertDateTime(t));
 
 // console.log(
 //   new Intl.DateTimeFormat("en", {
@@ -96,3 +97,16 @@ console.log(convertDateTime(t));
 //   }).format(t.seconds)
 // );
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
+
+// var date = new Date();
+// let s = new Intl.DateTimeFormat("en", { timeStyle: "short" }).format(date);
+// console.log(s);
+
+let to = new Date(1970, 0, 1);
+let time = to.setSeconds(t.seconds);
+const ti = new Intl.DateTimeFormat("en", {
+  timeStyle: "short",
+  timeZone: "UTC",
+}).format(time);
+
+console.log(ti);
