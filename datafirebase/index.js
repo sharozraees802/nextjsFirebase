@@ -99,13 +99,6 @@ firebase
       //   console.log("this user is not use the email");
       // }
     });
-    const found = data.filter((e) => e.email == "sharozkhan@livani.com");
-    if (found.length === 0) {
-      console.log("use");
-      console.log(found);
-    } else {
-      console.log("not");
-    }
   })
   .catch((e) => console.log("Error:", e));
 
