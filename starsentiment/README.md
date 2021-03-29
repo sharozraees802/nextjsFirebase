@@ -33,4 +33,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 create command: npx create-next-app [projectname]
 
 run command: npm run dev
+
+- Check out this package [StarRatings](https://www.npmjs.com/package/react-star-ratings) more detail about npm package
+
+
 ```
