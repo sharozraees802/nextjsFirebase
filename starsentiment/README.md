@@ -34,7 +34,7 @@ create command: npx create-next-app [projectname]
 
 run command: npm run dev
 
-- Check out this package [StarRatings](https://www.npmjs.com/package/react-star-ratings) more detail about npm package
 
 
 ```
+- Check out this package [StarRatings](https://www.npmjs.com/package/react-star-ratings) more detail about npm package
